@@ -5,7 +5,7 @@ import api_data from "./api_data.json";
 import Grid from "@mui/material/Grid";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 
-// const URL = "https://api.github.com/users/nwtgck/repos";
+// const URL = "https://api.github.com/users/${repoName}/repos";
 
 function App() {
   const [val, setVal] = useState("");
