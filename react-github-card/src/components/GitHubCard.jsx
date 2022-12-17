@@ -34,7 +34,7 @@ const GitHubCard = ({ repo }) => {
         <Typography>{repo.stargazers_count.toLocaleString()} stars</Typography>
       </CardActions>
       <Typography sx={{ fontSize: 12 }}>
-        Last update: {format(new Date(repo.updated_at), "dd MMMM yyyy")}
+        Last update: {format(new Date(repo.updated_at), "dd/MM/yy")}
       </Typography>
     </Card>
   );
